@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.2)
 
-#project(helloworld VERSION 0.0.$ENV{TRAVIS_BUILD_NUMBER})
-project(helloworld VERSION 0.0.1)
+project(helloworld VERSION 0.0.$ENV{TRAVIS_BUILD_NUMBER})
+#project(helloworld VERSION 0.0.1)
 
 # Download and unpack googletest at configure time
 configure_file(CMakeLists.txt.in googletest-download/CMakeLists.txt)
